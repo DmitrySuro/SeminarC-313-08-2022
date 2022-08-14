@@ -8,7 +8,9 @@ System.Console.Clear();
 
 int NumbersOfNumbers (int numberUser)
 {
- int count = 0;
+ if(numberUser ==0)
+    return 1;
+int count = 0;
  while (numberUser > 0)
  {
     numberUser /= 10;
